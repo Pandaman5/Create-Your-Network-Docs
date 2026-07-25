@@ -27,9 +27,9 @@
 Seeing as this is a home network, the network services configures are limited, with most services being configured by Valley Fibre. The edge Router-1 and Router-2 are configured as DHCP servers and with DNS services for connected devices. 
 
 ## Device Configuration:
-Device configuration on each device are set up at the discretion of the user. As this is a small home network, VLAN's and routing configuration's are left mostly default. I have configured network devices I own. Here are some examples of device configuration:
+Device configuration on each device are set up at the discretion of the user. As this is a small home network, VLAN's and routing configuration's are left mostly default. I have configured network devices I own. All logins and usernames/passwords for my devices are saved on my personal BitWarden account. Here are some examples of device configuration:
 | Host-Name |      OS       |  IP Address   | Backups |
 |-----------|---------------|---------------|---------|
 | Router-2  |  Windows 10   |  192.168.0.1  | Monthly |
 | Server-1  | Proxmox 9.2.1 | 192.168.0.100 | Monthly |
-|
+| Ubuntu-VM | Ubuntu 26.04  | 192.168.0.110 | Monthly |
