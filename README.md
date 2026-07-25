@@ -33,3 +33,15 @@ Device configuration on each device are set up at the discretion of the user. As
 | Router-2  |  Windows 10   |  192.168.0.1  | Monthly |
 | Server-1  | Proxmox 9.2.1 | 192.168.0.100 | Monthly |
 | Ubuntu-VM | Ubuntu 26.04  | 192.168.0.110 | Monthly |
+
+## Revision History"
+Server-1:
+|     Date      | Change |
+|---------------|--------|
+| June 6. 2026  | Installed Proxmox 9.1.1                 |
+| June 16, 2026 | Configured Ubuntu-VM                    |
+| June 27, 2026 | Deleted OS, and installed Proxmox 9.2.1 |
+| July 4, 2026  | Recreated Ubuntu-VM                     |
+
+## Diagrams:
+Both Physical and Logical topology diagrams are included in this repository in the "Diagrams" folder.
