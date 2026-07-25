@@ -1,10 +1,10 @@
 # Create-Your-Network-Docs
 
 ## Address Table:
-|   Host-Name   |  Area  |    IP-Address    |   Gateway   |   DHCP Range    |
+|   Host-Name   |  Area  |    IP Address    |   Gateway   |   DHCP Range    |
 |---------------|--------|------------------|-------------|-----------------|
 |   Router-1    | Room 4 |  192.168.1.1/24  |      ?      | 192.168.1.0-255 |
-|
+|   Switch-1    | Room 4 |    Unmanaged     | 192.168.1.1 | 192.168.1.0-255 |
 | Workstation-4 | Room 4 |      *DHCP*      | 192.168.1.1 | 192.168.1.0-255 |
 | Workstation-3 | Room 3 |      *DHCP*      | 192.168.1.1 | 192.168.1.0-255 |
 | Workstation-2 | Room 2 |      *DHCP*      | 192.168.1.1 | 192.168.1.0-255 |
@@ -22,3 +22,14 @@
 |   Router-2    |    Router    |  192.168.0.1  |  TP-Link Archer AX23  |  Room 1   |  Router/Switch/AP  |
 |   Server-1    |    Server    | 192.168.0.100 |  HP Z800 Workstation  |  Room 1   |   Virtualization   |
 |     AP-1      | Access Point |  192.168.1.1  |   EERO 6+ (R010001)   | Main Room |    Acess Point     |
+
+## Network Services:
+Seeing as this is a home network, the network services configures are limited, with most services being configured by Valley Fibre. The edge Router-1 and Router-2 are configured as DHCP servers and with DNS services for connected devices. 
+
+##Device Configuration:
+Device configuration on each device are set up at the discretion of the user. As this is a small home network, VLAN's and routing configuration's are left mostly default. I have configured network devices I own. Here are some examples of device configuration:
+| Host-Name |      OS       |  IP Address   | Backups |
+|-----------|---------------|---------------|---------|
+| Router-2  |  Windows 10   |  192.168.0.1  | Monthly |
+| Server-1  | Proxmox 9.2.1 | 192.168.0.100 | Monthly |
+|
