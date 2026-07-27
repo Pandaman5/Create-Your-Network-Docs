@@ -34,7 +34,7 @@ Device configuration on each device are set up at the discretion of the user. As
 | Server-1  | Proxmox 9.2.1 | 192.168.0.100 | Monthly |
 | Ubuntu-VM | Ubuntu 26.04  | 192.168.0.110 | Monthly |
 
-## Revision History"
+## Revision History
 Server-1:
 |     Date      | Change |
 |---------------|--------|
