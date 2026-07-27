@@ -35,6 +35,12 @@ Device configuration on each device are set up at the discretion of the user. As
 | Ubuntu-VM | Ubuntu 26.04  | 192.168.0.110 | Monthly |
 
 ## Revision History
+Create-Your-Network-Docs Document:
+|     Date      |        Change         |
+|---------------|-----------------------|
+| July 24. 2026 |   Created Document    |
+| July 27, 2026 | Proof-read and edited |
+
 Server-1:
 |     Date      | Change |
 |---------------|--------|
