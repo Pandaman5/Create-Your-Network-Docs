@@ -47,5 +47,5 @@ Server-1:
 Both Physical and Logical topology diagrams are included in this repository in the "Diagrams" folder.
 
 # Physical Topology:
-https://github.com/Pandaman5/Create-Your-Network-Docs/blob/main/Diagrams/Lesson%205%20-%20Create%20Your%20Network%20Docs%20(Physical).PNG
+![Physical network topology]{https://github.com/Pandaman5/Create-Your-Network-Docs/blob/main/Diagrams/Lesson%205%20-%20Create%20Your%20Network%20Docs%20(Physical).PNG}
 
